@@ -1,0 +1,117 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.shop-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.shop-header h1 {
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+/* Grid Layout */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+/* Card Styling */
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Image Area */
+.image-container {
+    position: relative;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* Badges */
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.black { background: #000; }
+.green { background: #008000; }
+.orange { background: #ffa500; }
+
+/* Text Alignment Helpers */
+.center { text-align: center; }
+.right { text-align: right; }
+
+h3 { margin: 10px 0; font-size: 1.2rem; }
+.description { font-size: 14px; color: #555; line-height: 1.4; height: 60px; }
+
+/* The Overflow Boxes (The Core Task) */
+.overflow-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 12px;
+    height: 50px; /* Fixed height to force overflow */
+    margin-bottom: 20px;
+}
+
+.visible { overflow: visible; }
+.hidden { overflow: hidden; }
+.auto { overflow: auto; }
+
+/* Footer/Price Row */
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.center-col { flex-direction: column; gap: 10px; }
+.flex-end { flex-direction: column; align-items: flex-end; gap: 10px; }
+
+.price { font-weight: bold; font-size: 1.1rem; }
+
+/* Button */
+.add-btn {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-btn:hover {
+    background-color: #006400;
+}
