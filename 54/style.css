@@ -1,0 +1,40 @@
+
+body {
+    font-family: serif; 
+    margin: 20px;
+    background-color: white;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; 
+    border: 2px solid #00008b; 
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.main-side, .sidebar {
+    max-width: 200px;
+}
+
+
+.sidebar {
+    text-align: left; 
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+/* Footer Container */
+.footer-wrapper {
+    border: 1px solid #800000; 
+    text-align: center; 
+    padding: 10px;
+}
+
+.footer-wrapper p {
+    margin: 0;
+    font-size: 0.9rem;
+}
